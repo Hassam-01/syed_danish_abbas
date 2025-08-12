@@ -8,7 +8,7 @@ interface Project {
   images: string[]; // Array of image URLs
   techStack: string[]; // Array of technologies used
   functionalities: string[]; // Array of functionalities
-  githubLink: string; // GitHub repository link
+  // githubLink: string; // GitHub repository link
   liveLink: string; // Live project link
   intro:string;
 }
