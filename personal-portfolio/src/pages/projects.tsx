@@ -18,7 +18,7 @@ function Projects() {
       projectId: 1,
       title: "ZeroCarbon",
       Niche: "Solar Power",
-      img: "../assets/images/zerocarbon.jpg",
+      img: LiveDir + "1.jpg",
       liveLink: "https://zerocarbon.com.pk/",
     },
     {
@@ -155,7 +155,7 @@ function Projects() {
           </div>
 
           {/* Scroll Buttons for Small Screens */}
-          <div className="md:hidden flex justify-center gap-2 mt-4">
+          <div className="md:hidden flex justify-center gap-2 mt-4 ">
             <button
               onClick={() => handleScroll("left", "projects-container")}
               className="bg-white bg-opacity-20 rounded-full p-3 hover:bg-opacity-30 transition-all"
