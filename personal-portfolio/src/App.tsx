@@ -14,7 +14,7 @@ function App() {
   <div>
     <div className="fixed inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900 opacity-90 -z-10"
         style={{
-          backgroundImage: `url(${bg})`,
+          backgroundImage: `url("https://i.ibb.co/hxZQjtHJ/bg.jpg")`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
