@@ -1,6 +1,5 @@
 
 // import bg from "../assets/background.svg";
-import self from "../assets/self-animated.png";
 const LandingPage = () => {
   // const handleDownloadResume = () => {
   //   const resumeUrl = "https://drive.google.com/uc?export=download&id=1xeLHYBruwS69D6ooRHKxeKZlkVT-3NMq";
@@ -18,7 +17,7 @@ const LandingPage = () => {
       {/* Content */}
       <div className="relative z-10 md:flex-row-reverse flex flex-col items-end justify-start h-full">
 <img
-  src={self}
+  src="https://i.ibb.co/fGGfBmjg/self-animated.png"
   alt="self"
   className="h-[400px] md:h-[800px] w-auto object-contain "
 />      <div className="relative z-10 flex flex-col items-center justify-center h-full">
